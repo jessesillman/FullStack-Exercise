@@ -15,11 +15,9 @@ body {
 }
 
 footer {
-    text-align: center; /* Center-aligns the text inside the footer */
-    width: 100%;       /* Ensures the footer spans the full width of the page */
-    padding: 20px 0;   /* Adds some padding above and below the text */
-    /* You can also add other styles like background-color here if needed */
-    
+    text-align: center; 
+    width: 100%;       
+    padding: 20px 0;   
 }
 
 nav a:hover, #actionButton:hover {
@@ -41,10 +39,8 @@ nav a {
     text-decoration: none;
 }
 
-/* Clear floats */
 nav:after {
     content: "";
     display: table;
     clear: both;
 }
-
